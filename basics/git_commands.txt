@@ -1,1 +1,12 @@
-sudo apt install git - установка системы git
+git init - иницаилизирует/превращает текущую директорию в git-репозиторий
+
+git add - название файла/ "." - отслеживание указанных/всех файлов
+
+git commit -m "message for commit" - создание версии кода с сообщением 
+
+git remote add <name_of_remote>(origin) <ssh_key> - связывание локального репозитория с удаленным
+
+git push <name_of_remote> <branch_name> - отправка версии на github
+
+  
+
